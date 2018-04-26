@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Runtime.CompilerServices;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("Gravity")]
@@ -13,3 +14,5 @@ using System.Runtime.InteropServices;
 [assembly: Guid("cfa21c47-85e1-47b9-a824-7cd3989c9998")]
 [assembly: AssemblyVersion("1.1.0.0")]
 [assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: InternalsVisibleTo("Gravity.Tests")]
+
